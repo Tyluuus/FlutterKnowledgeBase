@@ -1,16 +1,9 @@
-# knowledge_base
+# Flutter Knowledge Base
 
 A Flutter project to collect useful knowledge in one place to use it in different projects.
 
-## Getting Started
+## Dependencies and useful packages/plugins
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In [pubspec.yaml] file dependencies were written down and categorized (Firebase, Networking, 
+Storage, Utils, State Management). All package data contains: Name, Short description and 
+version for moment of creating this repository.
