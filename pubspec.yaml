@@ -169,10 +169,17 @@ dependencies:
 
   # Utils
 
+  ## Animated Text Kit - Package project which contains a collection of cool and beautiful text
+  ## animations.
+  animated_text_kit: ^4.2.2
+
   ## Auto Route - Declarative routing solution. It allows for strongly-typed arguments passing.
   auto_route: ^9.2.2
   ### For dev dependencies:
   auto_route_generator: ^9.0.0
+
+  ## Badges - A package for creating badges.
+  badges: ^3.1.2
 
   ## Cached network image - library to show images from the internet and keep them in the cache.
   cached_network_image: ^3.4.1
@@ -184,8 +191,14 @@ dependencies:
   ## CameraAwesome - Plugin which includes UI for camera.
   camerawesome: ^2.1.0
 
+  ## Carousel Slider - A carousel slider widget, support infinite scroll and custom child widget.
+  carousel_slider: ^5.0.0
+
   ## Connectivity Plus - Plugin for discovering the state of the network (WiFI & Mobile/Cellular).
   connectivity_plus: ^6.1.0
+
+  ## Convex Bottom Bar - Package which implements a ConvexAppBar to show Convex Tab in the bottom.
+  convex_bottom_bar: ^3.2.0
 
   ## Dart Style - Opinionated, automatic Dart source code formatter.
   dart_style: ^2.3.7
@@ -198,6 +211,12 @@ dependencies:
   ## options for customization
   dropdown_button2: ^2.3.9
 
+  ## Easy localization - Easy and fast internationalizing and localization Flutter App.
+  easy_localization: ^3.0.7
+
+  ## Encrypt - A set of high-level APIs over PointyCastle for two-way cryptography.
+  encrypt: ^5.0.3
+
   ## Equatable - it overrides == and hashCode. With that package no code generation is needed.
   equatable: ^2.0.5
 
@@ -205,9 +224,21 @@ dependencies:
   ## and publishers to fire events.
   event_bus: ^2.0.1
 
+  ## FL Chart - A highly customizable Flutter chart library.
+  fl_chart: ^0.69.0
+
+  ## Flame - A minimalist Flutter game engine, provides a nice set of somewhat independent modules.
+  flame: ^1.21.0
+
+  ## Flutter Animate - Add animated effects & builders in Flutter.
+  flutter_animate: ^4.5.0
+
   ## Flutter Dotenv - Allows to load configuration at runtime from an .env file which can be used
   ##  throught the application
   flutter_dotenv: ^5.2.1
+
+  ## Flutter Facebook Auth - Allows to add facebook login to a flutter app.
+  flutter_facebook_auth: ^7.1.1
 
   ## Flutter Hooks - implementation of React hooks. It adds a new kind of widget with enhanced
   ## code reuse.
@@ -239,11 +270,18 @@ dependencies:
   ## used for iOS, KeyStore based solution is used in Android.
   flutter_secure_storage: ^9.2.2
 
+  ## Flutter SpinKit - A collection of loading indicators animated with flutter.
+  flutter_spinkit: ^5.2.1
+
   ## Flutter SVG - Drawing SVG files using Flutter
   flutter_svg: ^2.0.14
 
   ## Flutter Toast - Toast library for Flutter. Easily create toast messages in single line.
   fluttertoast: ^8.2.8
+
+  ## FPDart - Functional programming in Dart and Flutter. All the main functional programming
+  ## types and patterns.
+  fpdart: ^1.1.1
 
   ## Freezed + Freezed annotation - code generator for data classes, unions and cloning. Help to
   ## generate code for models - serialization/deserialization, copyWith method, override
@@ -262,6 +300,16 @@ dependencies:
   ## Go Router - Declarative routing package (by flutter.dev). It uses the Router API to provide API
   ## for navigating between different screens.
   go_router: ^14.4.1
+
+  ## Google Fonts
+  google_fonts: ^6.2.1
+
+  ## Image picker - Plugin for selecting images from the Android/iOS image library and taking new
+  ## pictures with the camera.
+  image_picker: ^1.1.2
+
+  ## Infinite Scroll Pagination - Lazily load and display pages of items as the user scrolls down.
+  infinite_scroll_pagination: ^4.1.0
 
   ## Injectable - Convenient code generator for get_it.
   injectable: ^2.5.0
@@ -282,9 +330,16 @@ dependencies:
   ## Logger - Logger for flutter
   logger: ^2.4.0
 
+  ## Lottie - Render After Effects animations natively on Flutter.
+  lottie: ^3.1.3
+
   ## MIME - Utilities for handling media (MIME) types, including determining a type from a file
   ## extension and file contents.
   mime: ^2.0.0
+
+  ## Mockito - A mock framework inspired by Mockito with APIs for Fakes, Mocks, behavior
+  ## verification and stubbing.
+  mockito: ^5.4.4
 
   ## Package Info Plus - Plugin for querying information about the application package, such as
   ## CFBundleVersion on iOS or versionCode on Android.
@@ -294,12 +349,24 @@ dependencies:
   ## such as the temp and app data directories.
   path_provider: ^2.1.5
 
+  ## PDF - A PDF producer for Dart. It can create pdf files for both web or flutter.
+  pdf: ^3.11.1
+
   ## Permission Handler - Plugin provides a cross-platform API to request and check permissions.
   permission_handler: ^11.3.1
+
+  ## Photo View - Provides a gesture sensitive zoomable widget.
+  photo_view: ^0.15.0
+
+  ## Pinput - Pin code input text field, iOS SMS autofill, Android SMS autofill, etc.
+  pinput: ^5.0.0
 
   ## RxDart - implementation of the popular ReactiveX api for asynchronous programming,
   ## leveraging the native Dart Streams API.
   rxdart: ^0.28.0
+
+  ## Share Plus - Plugin for sharing content via the platform share UI from Flutter App.
+  share_plus: ^10.1.2
 
   ## Shared preferences - wraps platform - specific persistent storage for simple data. This must
   ## not be used for storing critical data.
@@ -308,6 +375,15 @@ dependencies:
   ## Shimmer - provides an easy way to add shimmer effect. It helps on UX when data is fetched.
   shimmer: ^3.0.0
 
+  ## Sign in with Apple - Flutter bridge to initiate sign in with Apple (iOS, macOS and Android).
+  ## Includes support for keychain entries as well as signing in with an Apple ID.
+  sign_in_with_apple: ^6.1.3
+
+  ## Smooth Page Indicator - Customizable animated page indicator with a set of build-in effects.
+  smooth_page_indicator: ^1.2.0+3
+
+  ## Timeago - Allows to create fuzzy timestamps (e.g. "15 minutes ago")
+  timeago: ^3.7.0
 
   ## URL Launcher - Plugin for launching a URL. Supports web, phone, SMS and email schemes.
   url_launcher: ^6.3.1
@@ -315,6 +391,8 @@ dependencies:
   ## UUID - RFC4122, UUID Generator and Parser for Dart
   uuid: ^4.5.1
 
+  ## Web Socket Channel - Provides a wrapper for WebSockets.
+  web_socket_channel: ^3.0.1
 
 
 
