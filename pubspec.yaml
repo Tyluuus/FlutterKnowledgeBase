@@ -203,6 +203,10 @@ dependencies:
   ## Dart Style - Opinionated, automatic Dart source code formatter.
   dart_style: ^2.3.7
 
+  ## Dartz - Functional Programming in Dart. Purify your Dart code using efficient immutable data
+  ## structures, monads, lenses and other FP tools.
+  dartz: ^0.10.1
+
   ## Device Info Plus - Plugin providing detailed information about the device
   ## (make, model, etc.) and Android/iOS version the app is running on
   device_info_plus: ^11.1.1
