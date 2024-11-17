@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:knowledge_base/app/example/app_strings.dart';
 import 'package:knowledge_base/app/example/app_theme.dart';
-import 'package:knowledge_base/router/example/go_router/app_router.dart';
+import 'package:knowledge_base/router/example/go_router/riverpod/app_router.dart';
 import 'package:knowledge_base/shared/provider/example/app_theme_provider.dart';
 
 /// We are extending Consumer Widget to be able to use Riverpod library.
